@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'master',
-                url: 'https://github.com/sweta-suman1/TYITA.git'
+                url: 'https://github.com/sweta-suman1/test1.git'
             }
         }
 
